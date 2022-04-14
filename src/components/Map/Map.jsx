@@ -10,7 +10,7 @@ const Map = () => {
   const coordinates = { lat: 0, lng: 0 };
   return (
     <div className={classes.mapContainer}>
-      <GoogleMapReact
+      {/* <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyA9kgED4mazsjyfssRDLTcYC0_yH6ZkB3k" }}
         defaultCenter={coordinates}
         defaultZoom={14}
@@ -18,7 +18,7 @@ const Map = () => {
         options={{}}
         onChange={{}}
         onChildClick={{}}
-      ></GoogleMapReact>
+      ></GoogleMapReact> */}
     </div>
   );
 };
